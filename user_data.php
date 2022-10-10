@@ -1,9 +1,9 @@
 <?php if (isset($_POST['submit'])) {
-    $name = $_POST['name'] . '<br>';
-    $email = $_POST['email'] . '<br>';
-    $date = $_POST['date'] . '<br>';
-    $gender = $_POST['gender'] . '<br>';
-    $country = $_POST['country'] . '<br>';
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $date = $_POST['date'];
+    $gender = $_POST['gender'];
+    $country = $_POST['country'];
 
     $data = [$name, $email, $date, $gender, $country];
 
